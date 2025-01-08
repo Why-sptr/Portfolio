@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="p-3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container p-0">
+                <a class="navbar-brand d-flex align-items-center" href="/index.html">
+                    <i class="fa-solid fa-code fa-1x"></i>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-web1 fw-bold" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-bold" href="/profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                Gallery
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-dark active" href="/portfolio.html">Portfolio</a></li>
+                                <li><a class="dropdown-item text-dark" href="/certificate.html">Certificate</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-bold" href="/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Portfolio -->
+        <section>
+            <div class="container py-5">
+                <h4 class="fw-semibold mb-4 text-center">Portfolio Project</h4>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/BeautyShop.png">
+                            <img src="asset/portfolio/BeautyShop.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Beauty Shop</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                    <div class="badge bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        JavaScript</div>
+                                </div>
+                                <p class="card-text">Website untuk menunjang bisnis toko kecantikan dengan menjual
+                                    produk-produk kecantikan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Shoes.png">
+                            <img src="asset/portfolio/Shoes.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Shoes E-commerce</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Dibangun untuk mengelola dan menunjang penjualan pada toko sepatu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Medical.png">
+                            <img src="asset/portfolio/Medical.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Medical Website</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                </div>
+                                <p class="card-text">Dikembangkan dengan target pasar pemuda yang ingin melakukakn
+                                    booking dokter secara online.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Tshirt.png">
+                            <img src="asset/portfolio/Tshirt.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">T-shirt Shop</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        HTML</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">CSS
+                                    </div>
+                                </div>
+                                <p class="card-text">Dibangun untuk mengelola penjualan pada suatu toko baju untuk
+                                    menjual secara online</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/AdminSekolah.png">
+                            <img src="asset/portfolio/AdminSekolah.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Admin School</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Dibuild untuk memanage restful API yang ada pada aplikasi mobile
+                                    serta biaya SPP.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/DeliveryOrder.png">
+                            <img src="asset/portfolio/DeliveryOrder.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Delivery Order</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Dibuat dengan tujuan mempermudah user dalam mencatat reservasi
+                                    orderan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/SportWeb.png">
+                            <img src="asset/portfolio/SportWeb.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sport Website</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Dirancang untuk mengelola data-data atlet dan pelatih dalam semua
+                                    cabang olahraga.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Employe.png">
+                            <img src="asset/portfolio/Employe.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Employee Management</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Dikembangkan dengan tujuan untuk memanage data pegawai pada suatu
+                                    perusahaan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/PortfolioWeb.png">
+                            <img src="asset/portfolio/PortfolioWeb.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Portfolio Website</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Dikembangkan untuk menyimpan berbagai portofolio menjadi satu dalam
+                                    website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/FastBreaking.png">
+                            <img src="asset/portfolio/FastBreaking.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fast Breaking Web</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Digunakan untuk mengelola data peserta bukber.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/GameApp.png">
+                            <img src="asset/portfolio/GameApp.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Game App</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">Vue
+                                        Js</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Untuk membuat list game menggunakan API dengan bahasa pemrograman
+                                    Vue Js.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- Comercial -->
+        <section>
+            <div class="container py-5">
+                <h4 class="fw-semibold mb-4 text-center">Portfolio Comercial</h4>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Can.png">
+                            <img src="asset/portfolio/Can.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Can.co.id</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Redesign website utama Can Creative.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/CekHarga.png">
+                            <img src="asset/portfolio/CekHarga.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cek Harga</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Livewire</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Dibuat untuk mempermudah konsumen dalam melakukan pengecekan harga
+                                    ongkir.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/SekolahSeo.png">
+                            <img src="asset/portfolio/SekolahSeo.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sekolah SEO</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat dengan tujuan usaha jasa SEO, Gmaps, Web, dan Sosial Media.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Senatama.png">
+                            <img src="asset/portfolio/Senatama.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Senatama.co.id</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat untuk Web Company Profile sebuah perusahaan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Usaha-es.png">
+                            <img src="asset/portfolio/Usaha-es.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Usaha Es</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat untuk web penjualan mesin es batu kepada customer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/DuniaNail.png">
+                            <img src="asset/portfolio/DuniaNail.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dunia Nail</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat untuk membuka kelas nail art.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Rakel.png">
+                            <img src="asset/portfolio/Rakel.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Rakel Distro</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat untuk memudahkan customer dalam membeli pakaian.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/WOD.png">
+                            <img src="asset/portfolio/WOD.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">WOD Distro</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat untuk memudahkan customer dalam membeli pakaian.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/TourTravel.png">
+                            <img src="asset/portfolio/TourTravel.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tour and Travel</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Untuk melakukan pemasaran bisnis Tour dan Travel.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Bekasi.png">
+                            <img src="asset/portfolio/Bekasi.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pindahan Bekasi</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat dengan tujuan menunjang performa Google Local Business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Jakut-1.png">
+                            <img src="asset/portfolio/Jakut-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pindahan Jakut</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat dengan tujuan menunjang performa Google Local Business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Jakut.png">
+                            <img src="asset/portfolio/Jakut.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pindahan Jaksel</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat dengan tujuan menunjang performa Google Local Business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Jakbar.png">
+                            <img src="asset/portfolio/Jakbar.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pindahan Jakbar</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat dengan tujuan menunjang performa Google Local Business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Jaktim.png">
+                            <img src="asset/portfolio/Jaktim.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pindahan Jaktim</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat dengan tujuan menunjang performa Google Local Business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Tangerang.png">
+                            <img src="asset/portfolio/Tangerang.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pindahan Tangerang</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat dengan tujuan menunjang performa Google Local Business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/JasaSondir.png">
+                            <img src="asset/portfolio/JasaSondir.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Jasa Sondir</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Wordpress</div>
+                                </div>
+                                <p class="card-text">Dibuat untuk layanan jasa sondir tanah.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Inventory.png">
+                            <img src="asset/portfolio/Inventory.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Inventory Web</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Dirancang untuk memanage transaksi dan mengelola data customer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- Contribution -->
+        <section>
+            <div class="container py-5">
+                <h4 class="fw-semibold mb-4 text-center">Project Contribution</h4>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/NestOps.png">
+                            <img src="asset/portfolio/NestOps.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nesy Gym Operasional</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Website untuk memanagament operasional gym pada Nest Gym.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/NestMem.png">
+                            <img src="asset/portfolio/NestMem.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nest Gym Member</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Bootstrap</div>
+                                </div>
+                                <p class="card-text">Website untukmengelola member pada Nest Gym.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/UrbanStye.png">
+                            <img src="asset/portfolio/UrbanStye.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Urban Style</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Tailwind CSS</div>
+                                </div>
+                                <p class="card-text">Website untuk memonitoring user yang membeli dan menyewa
+                                    rumah/kamar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Asaba.png">
+                            <img src="asset/portfolio/Asaba.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Asaba</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Laravel</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Tailwind CSS</div>
+                                </div>
+                                <p class="card-text">Website backoffice untuk melakukan penjualan barang.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Design -->
+        <section>
+            <div class="container py-5">
+                <h4 class="fw-semibold mb-4 text-center">Portfolio Design</h4>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Desain1.png">
+                            <img src="asset/portfolio/Desain1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Aniversary V1</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Figma</div>
+                                </div>
+                                <p class="card-text">Membuat desain untuk undangan acara aniversary yang diadakan GDA ke
+                                    25 tahun</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Desain2.png">
+                            <img src="asset/portfolio/Desain2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Aniversary V2</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Adobe Ilsutrator</div>
+                                </div>
+                                <p class="card-text">Membuat desain flyer atau poster undangan acara aniversary dan
+                                    membuat IG frame</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Desain3.png">
+                            <img src="asset/portfolio/Desain3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Aniversary V3</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Figma</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Photoshop</div>
+                                </div>
+                                <p class="card-text">Membuat desain MMT Selamat Datang, Photobooth&Banner, Banner Roll,
+                                    Umbul-Umbul</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Desain4.png">
+                            <img src="asset/portfolio/Desain4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Aniversary V4</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Figma</div>
+                                </div>
+                                <p class="card-text">Membuat desain utnuk pemenang acara aniversary,kupon dan desain
+                                    logo merchandise</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Desain5.png">
+                            <img src="asset/portfolio/Desain5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Adobe Ilsutrator</div>
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        Photoshop</div>
+                                </div>
+                                <p class="card-text">Membuat desain kaos polo untuk acara aniversary</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- UI/UX Design -->
+        <section>
+            <div class="container py-5">
+                <h4 class="fw-semibold mb-4 text-center">Portfolio UI/UX Design</h4>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Porto App.png">
+                            <img src="asset/portfolio/Porto App.png" class="w-100 img-fluid" style="width: 100%;"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Porto App</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        UI/UX</div>
+                                </div>
+                                <p class="card-text">Desain UI/UX portfolio app untuk memonotoring perkembangan
+                                    kemampuan user.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Lof App.png">
+                            <img src="asset/portfolio/Lof App.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lof App</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        UI/UX</div>
+                                </div>
+                                <p class="card-text">Desain aplikasi mucis player yang friendly terhadap user dengan
+                                    tema gelap.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Healthy app.png">
+                            <img src="asset/portfolio/Healthy app.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Healthy App</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        UI/UX</div>
+                                </div>
+                                <p class="card-text">Bertujuan untuk memudahkan seseorang dalam berkonsultasi tentang
+                                    kesehatannya kepada dokter secara online.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Host Web.png">
+                            <img src="asset/portfolio/Host Web.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Host Web</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        UI/UX</div>
+                                </div>
+                                <p class="card-text">Desain website untuk jualan atau menyewakan layanan hosting dan
+                                    domain.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Web Travel.png">
+                            <img src="asset/portfolio/Web Travel.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Travel</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        UI/UX</div>
+                                </div>
+                                <p class="card-text">Memudahkan dalam mencari tempat-tempat berlibur di semua negara.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card bg-web h-100" data-bs-toggle="modal" data-bs-target="#imagePreviewModal"
+                            data-image="asset/portfolio/Web Porto.png">
+                            <img src="asset/portfolio/Web Porto.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Portfolio</h5>
+                                <div class="col mb-3 mt-2">
+                                    <div class="badge text-bg-primary border border-primary bg-opacity-25 py-2 px-3">
+                                        UI/UX</div>
+                                </div>
+                                <p class="card-text">Didesain dengan tujuan untuk menyimpan project-project yang telah
+                                    diselesaikan.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="imagePreviewModal" tabindex="-1" aria-labelledby="imagePreviewModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-web">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imagePreviewModalLabel"></h5>
+                        <button type="button" class="btn-close btn-primary" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <img src="" id="modalImage" class="img-fluid rounded-2" alt="Preview Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
